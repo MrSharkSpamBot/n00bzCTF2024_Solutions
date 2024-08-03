@@ -1,5 +1,5 @@
 # Sillygoose
-@ChallengeAuthor: Connor Chang\
+@ChallengeAuthor: [Connor Chang]\
 @WriteupAuthor: [MrSharkSpamBot]
 
 ## Description
@@ -134,6 +134,7 @@ n00bz{y0u_4r3_4_sm4rt_51l1y_g0053}
 [*] Closed connection to 24.199.110.35 port 41199
 ```
 
+[Connor Chang]: https://github.com/connorchang100
 [MrSharkSpamBot]: https://github.com/MrSharkSpamBot
 [genetic algorithm]: https://www.mathworks.com/help/gads/what-is-the-genetic-algorithm.html
 [binary search]: https://www.geeksforgeeks.org/binary-search/
