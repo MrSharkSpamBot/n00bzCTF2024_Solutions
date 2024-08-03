@@ -1,5 +1,5 @@
 # Sillygoose
-@ChallengeAuthor: Connor Chang
+@ChallengeAuthor: Connor Chang\
 @WriteupAuthor: [MrSharkSpamBot]\
 
 ## Description
