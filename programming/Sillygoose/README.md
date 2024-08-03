@@ -42,7 +42,7 @@ while True:
     if turns > 500:
         print("you have a skill issue you silly goose")
 ```
-The following code is provided by the challenge. This is a simple guess the number game with input validation. The only issue is that the range is between 0 and 10 to the power of 10. Luckily enough, we can write an agorithm to solve this challenge based off of the large or small output provided.
+The following code is provided by the challenge. This is a simple guess the number game with input validation. The only issue is that the range is between 0 and 10 to the power of 10. Luckily enough, we can write an agorithm to solve this challenge based off of the large or small output provided which will also meet the constraints of under a minute and less than 500 tries.
 
 ## Unintended
 ```
