@@ -6,7 +6,7 @@
 There's no way you can guess my favorite number, you silly goose. 
 
 ## Understanding the code
-```
+```py
 from random import randint
 import time
 ans = randint(0, pow(10, 100))
@@ -45,7 +45,7 @@ while True:
 The following code is provided by the challenge. This is a simple guess the number game with input validation. The only issue is that the range is between 0 and 10 to the power of 10. Luckily enough, we can write an agorithm to solve this challenge based off of the large or small output provided which will also meet the constraints of under a minute and less than 500 tries.
 
 ## Unintended
-```
+```py
 from pwn import *
 import random
 
@@ -98,7 +98,7 @@ you ran out of time you silly goose
 ```
 
 ## Intended
-```
+```py
 from pwn import *
 
 smallest = 0
