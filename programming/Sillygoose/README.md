@@ -1,6 +1,6 @@
 # Sillygoose
 @ChallengeAuthor: Connor Chang\
-@WriteupAuthor: [MrSharkSpamBot]\
+@WriteupAuthor: [MrSharkSpamBot]
 
 ## Description
 There's no way you can guess my favorite number, you silly goose. 
