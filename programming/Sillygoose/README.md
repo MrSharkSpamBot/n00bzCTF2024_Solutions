@@ -87,6 +87,15 @@ n00bz{y0u_4r3_4_sm4rt_51l1y_g0053}
 
 [*] Closed connection to 24.199.110.35 port 41199
 ```
+Though most of the time, you will probaby get:
+```
+[x] Opening connection to 24.199.110.35 on port 41199
+[x] Opening connection to 24.199.110.35 on port 41199: Trying 24.199.110.35
+[+] Opening connection to 24.199.110.35 on port 41199: Done
+you ran out of time you silly goose
+
+[*] Closed connection to 24.199.110.35 port 41199
+```
 
 ## Intended
 ```
@@ -113,7 +122,17 @@ while True:
         conn.close()
         break
 ```
-The above code is the intended solution which is essentially just a simple [binary search] algorithm. The first guess is 0 plus 10 to the power of 100 divided by two. Then based off of the output of small or large, the algorithm will set a upper or lower bound to restrict the possible numbers to be searched through. Since the algorithm continuously halfs the number of possible solutions till it finds the solution, it is able to solve the challenge in under a minute and less than 500 attempts each time.
+The above code is the intended solution which is essentially just a simple [binary search] algorithm. The first guess is 0 plus 10 to the power of 100 divided by two. Then based off of the output of small or large, the algorithm will set a upper or lower bound to restrict the possible numbers to be searched through. Since the algorithm continuously halfs the number of possible solutions till it finds the solution, it is able to solve the challenge in under a minute and less than 500 attempts each time. The output should look like:
+```
+[x] Opening connection to 24.199.110.35 on port 41199
+[x] Opening connection to 24.199.110.35 on port 41199: Trying 24.199.110.35
+[+] Opening connection to 24.199.110.35 on port 41199: Done
+congratulations you silly goose
+
+n00bz{y0u_4r3_4_sm4rt_51l1y_g0053}
+
+[*] Closed connection to 24.199.110.35 port 41199
+```
 
 [MrSharkSpamBot]: https://github.com/MrSharkSpamBot
 [genetic algorithm]: https://www.mathworks.com/help/gads/what-is-the-genetic-algorithm.html
